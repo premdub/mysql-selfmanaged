@@ -50,6 +50,8 @@ Create a new public github repo called 'mysql-selfmanaged' in your github accoun
       
       The following error occured when i returned to work 3 days later (it was working on the day):
       *** sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")****
+      This error only occur when i added the information to .env file.  I ran through when disclose the username/password on .py file. 
+      I wasn't able to create AZURE VM as no PUBLIC IP ADDRESS created after creating of AZURE VM.
       
       
 
