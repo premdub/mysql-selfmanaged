@@ -46,4 +46,7 @@ Create a new public github repo called 'mysql-selfmanaged' in your github accoun
     -Dataset
       brain_size_df = pd.read_csv("https://raw.githubusercontent.com/premdub/descriptives_scipy/main/data/brain_size.csv")
       
+      The following error occured when i returned to work 3 days later (it was working on the day):
+      *** sqlalchemy.exc.OperationalError: (pymysql.err.OperationalError) (2003, "Can't connect to MySQL server on 'localhost' ([WinError 10061] No connection could be made because the target machine actively refused it)")****
+      
 
